@@ -1,0 +1,186 @@
+[
+  {
+    "id": "flowpulse-saas",
+    "name": "FlowPulse AI",
+    "category": "SaaS & Developer Platform",
+    "websiteUrl": "https://flowpulse.ai",
+    "avatar": "⚡",
+    "primaryColor": "#4f46e5",
+    "tone": "technical",
+    "description": "Intelligent workflow automation and real-time event pipeline platform for developers and modern cloud teams.",
+    "welcomeMessage": "Hi there! 👋 I'm the FlowPulse Assistant. Ask me about our API, workflow triggers, pricing plans, or integrations!",
+    "suggestedQuestions": [
+      "What pricing plans do you offer?",
+      "How does the webhook retry mechanism work?",
+      "What integrations are supported?",
+      "Do you provide SOC2 and GDPR compliance?"
+    ],
+    "pages": [
+      {
+        "url": "https://flowpulse.ai",
+        "title": "FlowPulse AI | Next-Gen Event Automation",
+        "chunks": [
+          {
+            "heading": "Product Overview & Core Mission",
+            "content": "FlowPulse AI is a serverless workflow orchestration engine built for microservices, AI pipelines, and cloud webhooks. It lets engineering teams connect distributed systems with zero boilerplate, sub-millisecond event processing, and automatic retries.",
+            "keywords": "automation, workflows, engine, serverless, microservices, pipeline"
+          },
+          {
+            "heading": "Key Platform Features",
+            "content": "1. Declarative Workflows: Define multi-step triggers and filters in TypeScript or YAML.\n2. Smart Retries: Exponential backoff with jitter and dead-letter queue (DLQ) alerts.\n3. Real-time Observability: Distributed tracing across all runs with latency percentiles.\n4. AI Data Transformation: Use inline LLM nodes to clean, classify, and summarize incoming payload streams.",
+            "keywords": "features, triggers, filters, retries, dlq, observability, tracing, ai transform"
+          },
+          {
+            "heading": "Developer SDKs & Supported Languages",
+            "content": "FlowPulse offers official SDKs for Node.js, Python 3.10+, Go 1.21+, and Rust. Webhook ingestion is open to any HTTP/2 or WebSocket client with signed HMAC-SHA256 headers.",
+            "keywords": "sdks, nodejs, python, go, rust, webhooks, hmac, security"
+          }
+        ]
+      },
+      {
+        "url": "https://flowpulse.ai/pricing",
+        "title": "Pricing Plans & Tier Comparison | FlowPulse",
+        "chunks": [
+          {
+            "heading": "Starter Tier ($0 / month)",
+            "content": "Free forever for side projects and prototypes. Includes up to 50,000 workflow events/month, 3 active pipelines, 1-day log retention, and community Discord support.",
+            "keywords": "free, starter, tier, pricing, 50k events, discord support"
+          },
+          {
+            "heading": "Pro Team Tier ($49 / month)",
+            "content": "Designed for scaling startups. Includes 1,000,000 events/month (additional events at $0.0001/run), unlimited pipelines, 30-day execution logs, team RBAC, Slack alerts, and 99.9% uptime SLA.",
+            "keywords": "pro, team, $49, million events, rbac, sla, logs"
+          },
+          {
+            "heading": "Enterprise Tier ($299 / month or Custom)",
+            "content": "For mission-critical production environments. Includes dedicated VPC peering, custom data residency (US, EU, AP), 99.99% uptime SLA, SSO/SAML 2.0, 24/7 dedicated support engineer, and custom volume pricing.",
+            "keywords": "enterprise, $299, custom, vpc peering, saml, sso, sla, support"
+          }
+        ]
+      },
+      {
+        "url": "https://flowpulse.ai/security",
+        "title": "Security, Compliance & Privacy | FlowPulse",
+        "chunks": [
+          {
+            "heading": "Security Certifications & Compliance",
+            "content": "FlowPulse is SOC2 Type II certified and ISO 27001 compliant. We enforce end-to-end encryption using AES-256 at rest and TLS 1.3 in transit. We are fully compliant with GDPR and CCPA regulations.",
+            "keywords": "soc2, type ii, iso 27001, encryption, aes-256, tls 1.3, gdpr, ccpa"
+          },
+          {
+            "heading": "Data Retention and Privacy Policy",
+            "content": "Payload data can be automatically scrubbed or masked using zero-knowledge client encryption before reaching our servers. Customer data is never used to train third-party machine learning models without express consent.",
+            "keywords": "retention, privacy, masking, zero-knowledge, ml training"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apex-dental",
+    "name": "Apex Dental & Orthodontics",
+    "category": "Healthcare & Clinic",
+    "websiteUrl": "https://apexdentalcare.com",
+    "avatar": "🦷",
+    "primaryColor": "#0284c7",
+    "tone": "friendly",
+    "description": "Modern, compassionate dental and orthodontic care for children, teens, and adults in Downtown Metro.",
+    "welcomeMessage": "Welcome to Apex Dental! 🦷 How can I assist you today? Feel free to ask about our treatments, booking an exam, or insurance coverage.",
+    "suggestedQuestions": [
+      "What are your opening hours and location?",
+      "Do you accept Delta Dental and MetLife insurance?",
+      "How much does professional teeth whitening cost?",
+      "How can I book an emergency appointment?"
+    ],
+    "pages": [
+      {
+        "url": "https://apexdentalcare.com",
+        "title": "Apex Dental Care | Exceptional Family & Cosmetic Dentistry",
+        "chunks": [
+          {
+            "heading": "Practice Overview & Location",
+            "content": "Apex Dental & Orthodontics is located at 450 Grand Avenue, Suite 300, Downtown Metro. We offer comprehensive family dentistry, cosmetic smile makeovers, dental implants, Invisalign, and painless laser treatments.",
+            "keywords": "location, 450 grand avenue, cosmetic, family, dental, implants, invisalign"
+          },
+          {
+            "heading": "Office Hours & Emergency Care",
+            "content": "Monday - Friday: 8:00 AM - 7:00 PM\nSaturday: 9:00 AM - 3:00 PM\nSunday: Closed (On-call emergency triage available 24/7).\nFor acute dental emergencies (broken tooth, severe pain, trauma), we guarantee same-day emergency appointments if you call before 2:00 PM.",
+            "keywords": "hours, schedule, emergency, saturday, same-day appointment, phone"
+          }
+        ]
+      },
+      {
+        "url": "https://apexdentalcare.com/services-pricing",
+        "title": "Services, Treatments & Transparent Pricing | Apex Dental",
+        "chunks": [
+          {
+            "heading": "Preventive Care & Exam Packages",
+            "content": "New Patient Exam + Digital 3D X-rays + Comprehensive Cleaning: $149 special (normal value $350). Routine 6-month checkup and prophylaxis: $110.",
+            "keywords": "new patient, special, $149, x-rays, cleaning, checkup"
+          },
+          {
+            "heading": "Cosmetic & Orthodontic Treatments",
+            "content": "In-office Philips Zoom Teeth Whitening (takes 60 minutes): $349.\nInvisalign Clear Aligners: Starting from $2,800 to $4,500 depending on case severity. Flexible 0% APR financing available through CareCredit and Sunbit.",
+            "keywords": "whitening, philips zoom, $349, invisalign, financing, carecredit"
+          },
+          {
+            "heading": "Insurance & Payment Plans",
+            "content": "We are in-network with Delta Dental, Cigna, MetLife, Aetna, Guardian, and Blue Cross Blue Shield. For patients without insurance, we offer the Apex Smile Club membership for $29/month which covers 2 cleanings, all x-rays, and gives 20% off all procedures.",
+            "keywords": "insurance, in-network, delta dental, cigna, metlife, aetna, smile club, membership"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kinetix-athletics",
+    "name": "Kinetix Pro Athletics",
+    "category": "E-Commerce & Sports",
+    "websiteUrl": "https://kinetixgear.com",
+    "avatar": "👟",
+    "primaryColor": "#ea580c",
+    "tone": "sales",
+    "description": "High-performance marathon footwear, carbon-plated racing shoes, and ultralight athletic apparel.",
+    "welcomeMessage": "Hey athlete! 🏃 Welcome to Kinetix Pro. Looking for the perfect race-day shoe, sizing help, or tracking an order?",
+    "suggestedQuestions": [
+      "What is the difference between Strata Carbon and Velocity 2?",
+      "What is your return and exchange policy?",
+      "Do you ship internationally?",
+      "How do your shoes fit compared to Nike?"
+    ],
+    "pages": [
+      {
+        "url": "https://kinetixgear.com",
+        "title": "Kinetix Pro Gear | Breakthrough Carbon-Plated Running Shoes",
+        "chunks": [
+          {
+            "heading": "Flagship Running Shoes Collection",
+            "content": "1. Strata Carbon Elite ($225): Full-length curved carbon fiber propulsion plate, Pebax super-foam midsole, 6.4 oz ultra-featherweight. Geared for marathon racing and PR breaking.\n2. Velocity 2 Daily Trainer ($145): High-cushion responsive dual-density foam with Vibram Megagrip outsole for road and light trails. Built to last 500+ miles.",
+            "keywords": "shoes, strata carbon, velocity 2, pebax, racing, marathon, trainer, pricing"
+          },
+          {
+            "heading": "Sizing & Fit Advice",
+            "content": "Our shoes run true-to-size with a snug racing fit in the midfoot and an anatomical wide toe-box. If you prefer a relaxed fit or wear thick cushioned running socks, we recommend ordering half a size up.",
+            "keywords": "sizing, fit, true to size, toe box, half size up"
+          }
+        ]
+      },
+      {
+        "url": "https://kinetixgear.com/shipping-returns",
+        "title": "Shipping, 30-Day Guarantee & Returns | Kinetix",
+        "chunks": [
+          {
+            "heading": "30-Day 'Test Flight' Return Policy",
+            "content": "We stand by our shoes. Run in them outside for up to 30 days. If you don't love the ride, return them for a full 100% refund or exchange, no questions asked. Return shipping is completely free for US and Canada orders.",
+            "keywords": "returns, 30-day guarantee, refund, exchange, free return shipping"
+          },
+          {
+            "heading": "Shipping Speeds & Delivery Times",
+            "content": "Orders placed by 2:00 PM EST ship same-day from our Atlanta warehouse.\nStandard shipping (3-5 business days): Free on orders over $75 ($5.99 otherwise).\nExpress 2-Day Air: $14.99.\nInternational shipping: We deliver to 45+ countries with prepaid duties at checkout.",
+            "keywords": "shipping, standard, express, international, same-day, free shipping"
+          }
+        ]
+      }
+    ]
+  }
+]

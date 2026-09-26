@@ -1,0 +1,6 @@
+# SiteMind AI — Python backend dependencies
+# Already vendored into py_backend/vendor so no global install is needed.
+# To reinstall:  python3 -m pip install --target py_backend/vendor -r requirements.txt
+psycopg2-binary==2.9.13
+beautifulsoup4==4.15.0
+soupsieve==2.10
