@@ -44,7 +44,7 @@ The platform crawls website content, converts it into searchable knowledge chunk
                               ▼
                     ┌────────────────────┐
                     │   Python Backend   │
-                    │   SiteMind AI      │
+                    │      SiteMind      │
                     └─────────┬──────────┘
                               │
              ┌────────────────┼────────────────┐
